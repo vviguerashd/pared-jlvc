@@ -1,4 +1,4 @@
-# Muro de TV · José Luis Vigueras Cortés
+# Muro de TV · José Luis
 
 Anteproyecto de Estudio Maderax: muro de TV con lambrín WPC, pintura en zona de TV, retorno nuevo con bastidor y dos repisas flotantes en L.
 

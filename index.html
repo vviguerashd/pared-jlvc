@@ -4,6 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Muro de TV · José Luis</title>
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <meta name="description" content="Anteproyecto de Estudio Maderax: muro de TV con lambrín y repisas flotantes en L. Modelo 3D, plano con medidas e inversión.">
 <meta property="og:title" content="Muro de TV · Anteproyecto Estudio Maderax">
 <meta property="og:description" content="Gira el modelo 3D, revisa medidas, acabados e inversión.">
@@ -129,6 +131,16 @@ footer{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-f
 .dwg .ghostw{fill:none;stroke:var(--muted);stroke-width:.7;stroke-dasharray:2 1.5}
 .dwg .lamp{fill:var(--rib)} .dwg .lampU{fill:none;stroke:var(--rib);stroke-width:1.8}
 .dwg .paintl{stroke:var(--paint);stroke-width:2.4}
+.cta{display:grid;gap:18px;background:var(--btn);color:var(--btnfg);padding:28px max(20px,4vw)}
+.cta h2{color:var(--btnfg);margin:4px 0 8px}
+.cta p{margin:0;opacity:.85;max-width:52ch}
+.cta .eyebrow{color:var(--brass)}
+.cta-links{display:grid;gap:10px}
+.cta-links a{display:block;text-align:center;font:600 16px var(--body);padding:14px 18px;min-height:48px;text-decoration:none;border:1px solid var(--btnfg)}
+.btn-wa{background:var(--btnfg);color:var(--btn)}
+.btn-ig{color:var(--btnfg)}
+.cta-links a:focus-visible{outline:2px solid var(--brass);outline-offset:3px}
+@media (min-width:760px){.cta{grid-template-columns:1.4fr 1fr;align-items:center}}
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto}}
 </style>
 
@@ -139,7 +151,7 @@ footer{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-f
     <div class="eyebrow">Estudio Maderax · Anteproyecto v1 · 28 oct 2026</div>
     <h1>Muro de TV con lambrín y repisas en L</h1>
     <p>Así se va a ver la sala terminada. Gira el modelo, revisa medidas y acabados, y si todo está como lo platicamos, confírmanos por WhatsApp para arrancar.</p>
-    <div class="ficha"><span>Para <b>José Luis Vigueras Cortés</b></span><span>Pachuca, Hgo.</span><span>Ejecución <b>5 días de trabajo</b></span></div>
+    <div class="ficha"><span>Para <b>José Luis</b></span><span>Pachuca, Hgo.</span><span>Ejecución <b>5 días de trabajo</b></span></div>
   </section>
 
   <section class="visor" aria-label="Modelo 3D">
@@ -220,7 +232,19 @@ footer{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-f
     </ol>
   </section>
 
-  <footer><span>Victor Hugo Vigueras Díaz · 553 914 1019</span><span>Oscar Ávila Pastén · 771 154 1113</span><span>@EstudioMaderax</span></footer>
+  <section class="cta">
+    <div>
+      <div class="eyebrow">¿Quieres algo así en tu casa?</div>
+      <h2>Así entregamos todos nuestros proyectos</h2>
+      <p>Antes de cortar la primera pieza ves tu espacio en 3D, con medidas y acabados. Escríbenos y armamos el tuyo.</p>
+    </div>
+    <div class="cta-links">
+      <a class="btn-wa" href="https://wa.me/525539141019?text=Hola%2C%20vi%20el%20anteproyecto%20del%20muro%20de%20TV%20y%20quiero%20informaci%C3%B3n%20para%20mi%20casa." target="_blank" rel="noopener">WhatsApp · 55 3914 1019</a>
+      <a class="btn-ig" href="https://www.instagram.com/estudiomaderax/" target="_blank" rel="noopener">Instagram · @estudiomaderax</a>
+    </div>
+  </section>
+
+  <footer><span>Estudio Maderax · diseño en madera · Pachuca, Hgo.</span><span>Victor Hugo Vigueras Díaz · 553 914 1019</span><span>Oscar Ávila Pastén · 771 154 1113</span></footer>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/three@0.147.0/build/three.min.js"></script>
